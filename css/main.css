@@ -2,12 +2,10 @@ body {
     margin: 0%;
     width: 100%;
     height: 100%;
-    bottom: 0%;
 }
 .topnav {
   background-color: rgb(0, 0, 0);
   margin-top: -20px;
-
 }
   
 .topnav ul{
@@ -25,7 +23,7 @@ body {
 .topnav li{
     list-style-type: none;
 	display: inline-block;
-	padding-right: 50px;
+	padding-right: 1em;
     padding-top: 10px;
     padding-bottom: 10px;
 	margin-top: 20px;
@@ -50,7 +48,7 @@ body {
 footer/*footer style*/
 {
 	background-color: rgb(0, 0, 0);
-	height: 150px;
+	
 
 }
 .footnav ul/*footer ul style*/
@@ -60,17 +58,17 @@ footer/*footer style*/
 }
 .footnav ul li/*foote list style*/
 {
-	list-style-type: none;
+	list-style-type: none;/*to remove bullets*/
 	display: inline-block;
 }
 .footnav ul li a/*footer ancor tag style*/
 {
 	
     text-decoration-line: underline;
-	padding-right: 25px;
+	padding-right: 1em;
 	color: rgb(255, 255, 255);
-	letter-spacing: 3px;
-	font-size: 21px;
+	letter-spacing: 1px;
+	font-size: 20px;
 }
 .footnav a:hover {
     color: rgb(237, 211, 116);
@@ -85,20 +83,33 @@ footer/*footer style*/
     padding-bottom: 10px;
 
 }
-
-.logo {
+.logo1 img{
+    height: 70px;
+    width: 70px;
+}
+.logo2 img{
+    height: 120px;
+    width: 120px;
+}
+.logo1, .logo2 {
     float: left;
     padding-bottom: 10px;
-    padding-left: 20px;
+    padding-left: 2em;
+    padding-right: 2em;
     padding-top: 10px;
     transition: 0.6s ease;
+   
 
 }
-.logo:hover{
+.logo1:hover, .logo2:hover{
     opacity: 0.5;
+
 }
 .para1 {
     text-align: right;
     background-color: burlywood;
     color: red;
+}
+.hamburger{
+    display: none;/* to hide from desktop view*/
 }
