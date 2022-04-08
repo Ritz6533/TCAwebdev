@@ -49,23 +49,36 @@ footer/*footer style*/
 {
 	background-color: rgb(0, 0, 0);
 	
-
+}
+.footnav{
+    text-align: right;
+    align-content: right;
+    margin-top: 10px;
+    margin-right: 5em;
+}
+.footnav h2{
+    color: #fdfdfd;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration-line: underline;
 }
 .footnav ul/*footer ul style*/
 {
-	text-align: center;
-	line-height: 150px;
+	text-align: right;
+    
+    
 }
 .footnav ul li/*foote list style*/
 {
-	list-style-type: none;/*to remove bullets*/
-	display: inline-block;
+	list-style-type: none;
+    display: list-item;
+    
 }
 .footnav ul li a/*footer ancor tag style*/
 {
 	
-    text-decoration-line: underline;
-	padding-right: 1em;
+    text-decoration-line: none;
 	color: rgb(255, 255, 255);
 	letter-spacing: 1px;
 	font-size: 20px;
@@ -113,9 +126,21 @@ footer/*footer style*/
 .hamburger{
     display: none;/* to hide from desktop view*/
 }
-.social{
-    width: 20px;
-    height: 20px;
-    display: contents;
-    padding-left: 3px;
+.social img{
+  list-style-type: none;/*to remove bullets*/
+  padding-top: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 40px;
+  padding-left: 25px;
+  float: left;
+  margin-left: 30px;
+  transition: 0.6s ease;
+    
 }
+.social img:hover {
+        transform: scale(1.5);
+        
+      }

@@ -20,10 +20,10 @@ footer/*footer style*/
 	
 
 }
-.footnav ul/*footer ul style*/
+.footnav ul li/*footer ul style*/
 {
-	text-align: center;
-	line-height: 150px;
+	text-align: right;
+	
 }
 .footnav ul li/*foote list style*/
 {
