@@ -113,3 +113,9 @@ footer/*footer style*/
 .hamburger{
     display: none;/* to hide from desktop view*/
 }
+.social{
+    width: 20px;
+    height: 20px;
+    display: contents;
+    padding-left: 3px;
+}
