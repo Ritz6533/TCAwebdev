@@ -12,7 +12,7 @@
             <div class="logo1">
                 <a href="index.html"><img src="image/logobk.png" alt="log0"></a>
             </div>
-            <ul>
+            <ul class="topmenu">
                 <li><a class="active" href="index.html">Home</a></li>
                 <li><a href="pages/portfolio.html">Portrfolio</a></li>
                 <li><a href="pages/blog.html">Blog</a></li>
@@ -20,12 +20,23 @@
                 <li><a href="pages/contact.html">Contact Me</a></li>
                 
             </ul>
-            <div class="hamburger">
-                <div class="bun1"></div>
-                <div class="bun2"></div>
-                <div class="bun3"></div>
-            </div>
         </nav>
+            <nav class="dropdown">
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle"> 
+                <section class="burger">
+                  <div class="burgerelem"></div>
+                  <div class="burgerelem"></div>
+                  <div class="burgerelem"></div>
+                </section></label>
+                <ul class="menu">   
+                <a  href="index.html"><li>Home</li></a>
+                <a href="pages/portfolio.html"><li>Portrfolio</li></a>
+                <a href="pages/blog.html"><li>Blog</li></a>
+                <a href="pages/sitereport.html"><li>Site Report</li></a>
+                <a href="pages/contact.html"><li>Contact Me</li></a>
+                </ul>
+              </nav>
         <section class="para1">
 			<h1>CSY1018 - Web Development</h1>
 			<h2>Lecturer: Tom Butler</h2>
@@ -42,7 +53,7 @@
 
 
         </p>
-    <footer>
+    <footer class="footernavbar">
             <div class="logo2">
                 <a href="index.html"><img src="image/logobk.png" alt="log0"></a>>
             </div>
@@ -51,14 +62,16 @@
                 <a href="index.html"><img src="image/insta.png" alt="instagram"></a>>
                 <a href="index.html"><img src="image/tweeter.png" alt="tweeter"></a>>
                 <a href="index.html"><img src="image/email.png" alt="email"></a>>
-            </div>  
-                  <div class="footnav"> <ul>
-                      <h2>Quick Links</h2>
+            </div> 
+            <h2>Quick Links</h2> 
+            <div class="footnav"> <ul>
+                      
 					<li><a href="/pages/contact.html">Contact Me</a></li>
 					<li><a href="/pages/portfolio.html">Portfolio</a></li>
 					<li><a href="/pages/sitereport.html">Sitereport</a></li>
 					<li><a href="/pages/blog.html">Blog</a></li>
-				    </ul></div>
+				    </ul>
+            </div>
             <div class="copyright">
                 &copy; copyright HSETIR 2022
             </div>
