@@ -1,77 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-* {
-  box-sizing: border-box;
-}
+	<head>
+        <title>MY Blog</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/mobile.css" media="screen and (max-width: 801px)" />
+        <link rel="stylesheet" href="../css/main.css" media="screen and (min-width: 801px)" />
 
-.menu {
-  float: left;
-  width: 20%;
-  text-align: center;
-}
-
-.menu a {
-  background-color: #e5e5e5;
-  padding: 8px;
-  margin-top: 7px;
-  display: block;
-  width: 100%;
-  color: black;
-}
-
-.main {
-  float: left;
-  width: 60%;
-  padding: 0 20px;
-}
-
-.right {
-  background-color: #e5e5e5;
-  float: left;
-  width: 20%;
-  padding: 15px;
-  margin-top: 7px;
-  text-align: center;
-}
-
-@media only screen and (max-width: 620px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width: 100%;
-  }
-}
-</style>
-</head>
-<body style="font-family:Verdana;color:#aaaaaa;">
-
-<div style="background-color:#e5e5e5;padding:15px;text-align:center;">
-  <h1>Hello World</h1>
-</div>
-
-<div style="overflow:auto">
-  <div class="menu">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-    <a href="#">Link 4</a>
-  </div>
-
-  <div class="main">
-    <h2>Lorum Ipsum</h2>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-  </div>
-
-  <div class="right">
-    <h2>About</h2>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-  </div>
-</div>
-
-
-
+    </head>
+	<body>
+        <nav class="topnav">
+            <div class="logo1">
+                <a href="../index.html"><img src="../image/logobk.png" alt="log0"></a>
+            </div>
+            <ul class="topmenu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a class="active" href="portfolio.html">Portrfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="sitereport.html">Site Report</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                
+            </ul>
+        </nav>
+            <nav class="dropdown">
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle"> 
+                <section class="burger">
+                  <div class="burgerelem"></div>
+                  <div class="burgerelem"></div>
+                  <div class="burgerelem"></div>
+                </section></label>
+                <ul class="menu">   
+                    <li><a  href="../index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portrfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="sitereport.html">Site Report</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                    
+                </ul>
+              </nav>
+        <div class="container1">
+            
+    </div>
+    <footer class="footernavbar">
+            <div class="logo2">
+                <a href="../index.html"><img src="../image/logobk.png" alt="log0"></a>>
+            </div>
+            <div class="social">
+              <a href="https://www.facebook.com/" target="_blank"><img src="../image/fb.png" alt="fb"></a>>
+              <a href="https://www.instagram.com/" target="_blank"><img src="../image/insta.png" alt="instagram"></a>>
+              <a href="https://twitter.com/" target="_blank"><img src="../image/tweeter.png" alt="tweeter"></a>>
+              <a href="mailto:riteshjungshah6533@gmail.com" target="_blank"><img src="../image/email.png" alt="email"></a>>
+          </div><br>
+            <h2>Quick Links</h2> 
+            <div class="footnav"> 
+                <ul>
+                      
+					<li><a href="contact.html">Contact Me</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="sitereport.html">Sitereport</a></li>
+					<li><a href="blog.html">Blog</a></li>
+				    </ul>
+            </div>
+            <div class="copyright">
+                &copy; copyright HSETIR 2022
+            </div>
+    </footer>
 </body>
 </html>
-
