@@ -124,11 +124,6 @@ footer h2{
     opacity: 0.5;
 
 }
-.para1 {
-    text-align: right;
-    background-color: burlywood;
-    color: red;
-}
 .hamburger{
     display: none;/* to hide from desktop view*/
 }
@@ -152,4 +147,85 @@ footer h2{
 }
 .dropdown{
     display: none;
+}
+.container1{
+    margin-top: -20px;
+}
+
+.content{
+    padding : 25px;
+    border: #000;
+    border-style: solid;
+    background-color: rgb(0, 0, 0); 
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.432) , rgb(0, 0, 0));
+}
+
+
+
+h2{
+	color: rgb(255, 255, 255);
+	margin: 20px;
+	font-size: 55px;
+}
+h3{
+	color: rgb(237, 211, 116);
+	font-size: 25px;
+	margin-bottom: 50px;
+    margin-left: 25px;
+}
+h4{
+    text-align: center;
+    margin-top: 10px;
+	letter-spacing: 2px;
+	font-size: 20px;
+    margin-left: 20px;
+    color: rgb(255, 217, 0);
+}
+.face{
+	top: 100px;
+	right:8%;
+}
+.face img{
+    height: 300px;
+}
+
+.intro{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+.intro img{
+	height: auto;
+	width: 300px;
+}
+.intro-text{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.intro-text h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.intro-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.intro-text p{
+	color: #fcfc;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
 }
