@@ -160,7 +160,6 @@ footer h2{
     display: block;
     float: right;
     right: 0;
-    align-content: right;
     text-align: right;
     padding-top: 15px;
     padding-right: 15px;
@@ -200,7 +199,7 @@ footer h2{
     margin-left: 25px;
 }
 .intro h4{
-    text-align: left;
+    text-align: center;
     margin-top: 10px;
 	letter-spacing: 2px;
 	font-size: 20px;
@@ -212,6 +211,7 @@ footer h2{
 	width: 100%;
 	background-color: #191919;
     padding-bottom: 20px;
+    margin-top: -5px;
 }
 .intro img{
 	height: auto;
@@ -220,38 +220,30 @@ footer h2{
 
 
 }
-.main{
-	
-	max-width: 80%;
-	margin: 5px
-	
-}
-
 .links {
     text-align: center;
     background-color: #6c6c6c;
     border: #000000;
     border-style: double;
+    border-width: 20px;
+    
     
 }
 .links button{
-    background-color: rgb(255, 255, 255);
-    font-size: 15px;
+    background-color: rgb(255, 217, 0);
     padding: 10px;
-    
-}
-button{
-    color: #ffffff;
     text-align: center;
     font-size: 15px;
     margin: 20px;
     border-radius: 15px;
-    width: auto;
+    width: 7em;
 }
 .links button a{
     color: #000000;
+    padding: 5px;
+    
 }
 .links button:hover{
-    
     transform: scale(1.2);
+    background-color: #f2f2f2;
 }
