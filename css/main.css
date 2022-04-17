@@ -244,7 +244,7 @@ footer h2{
 }
 .socialmedia{
     background-color: rgb(255, 217, 0);
-    border: rgb(255, 217, 0);
+    border: rgb(250, 215, 15);
     border-style: double;
     border-radius: 25px;
     padding: 10px;
@@ -585,7 +585,7 @@ footer h2{
 .content25{
     background-color: #b1b1b8;
     height: auto;
-    padding: 20px;
+    padding: 30px;
 }
 .column25 p{
     color: rgb(73, 63, 63);
@@ -616,42 +616,11 @@ footer h2{
     border-color: rgb(0, 0, 0);
     border-top: #000000;
 }
-.column23{
-    flex: 40%;
-    background-color: rgb(170, 169, 165);
-    width: 100%;
-    height: auto;
-    border-width: 2px;
-    border-color: rgb(0, 0, 0);
-    border-style: solid;
-    text-align: center;
-    padding: 30px;
+.column22 h2{
+    color: rgb(245, 221, 165);
 }
-
-.column23 img{
-    width:  200px;
-    height: auto;
-    padding-top: 10px;
-
-}
- 
-.content22 {
-    display: flex;
-    background-color: #000000;
-    border-width: 4px;
-    border-color: rgb(0, 0, 0);
-    border-style: solid;
-    border-radius: 50px;
-}
-.column22 {
-    flex: 60%;
-    padding: 30px;
-    height: 100%;
-    margin: 30px;
-    background-color: #8a8787;
-    border-width: 4px;
-    border-color: rgb(0, 0, 0);
-    border-top: #000000;
+.column22 p{
+    color: rgb(11, 11, 11);
 }
 .column23{
     flex: 40%;
@@ -669,6 +638,7 @@ footer h2{
     width:  200px;
     height: auto;
     padding-top: 10px;
+
 
 }
 .content44{
