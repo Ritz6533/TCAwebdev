@@ -198,10 +198,11 @@ footer h2{
     border: #000000;
     border-style: double;
     border-width: 20px;
+    padding: 20px;
     
     
 }
-.links button{
+.links .button{
     background-color: rgb(255, 217, 0);
     padding: 10px;
     text-align: center;
@@ -211,7 +212,7 @@ footer h2{
     width: 7em;
     
 }
-.links button:hover{
+.links .button:hover{
     transform: scale(1.2);
     background-color: #f2f2f2;
     color: #000000;
@@ -540,7 +541,7 @@ footer h2{
 }
 .content3 img{
     height: auto;
-    width: 200px;
+    width: 300px;
     align-items: center;
 }
 .column5 h2{
@@ -635,7 +636,7 @@ footer h2{
 }
 
 .column23 img{
-    width:  200px;
+    width:  230px;
     height: auto;
     padding-top: 10px;
 
@@ -673,7 +674,7 @@ margin-top: -20px;
 
 }
 .column45 img{
-    width:  250px;
+    width:  300px;
     height: auto;
     padding: 30px;
 }
