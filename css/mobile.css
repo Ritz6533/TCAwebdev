@@ -155,14 +155,14 @@ footer h2{
     border-style: double;
     height: 2em;
     background-color: rgb(0, 0, 0);
-    width: 380px;
+    width: 330px;
     color: rgb(255, 255, 255);
     display: block;
     float: right;
     right: 0;
     text-align: right;
     padding-top: 15px;
-    padding-right: 15px;
+    padding-right: 45px;
     
 
 }
@@ -226,21 +226,25 @@ footer h2{
     border: #000000;
     border-style: double;
     border-width: 20px;
+    padding: 25px;
+    display: flex;
     
     
 }
-.links button{
+.links .button{
     background-color: rgb(255, 217, 0);
     padding: 10px;
     text-align: center;
     font-size: 15px;
-    margin: 20px;
+    margin: 5px;
     border-radius: 15px;
-    width: 7em;
+    width: 5em;
     color: #000000;
+    flex: 10%;
+    
     
 }
-.links button:hover{
+.links .button:hover{
     transform: scale(1.2);
     background-color: #f2f2f2;
     color: #000000;
@@ -314,7 +318,7 @@ footer h2{
 }
 .content3 img{
     height: auto;
-    width: 150px;
+    width: 160px;
     align-items: center;
 }
 .column5 h2{
